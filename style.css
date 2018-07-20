@@ -1,0 +1,37 @@
+.danger-label{
+margin:1rem;
+}
+body  {
+    background: url('download.jpg');
+    background-color: lightblue;
+
+
+}
+h1{
+	background-color:red;
+	
+}
+h2{
+	background-color:pink;
+	
+}
+
+
+#abc{
+background-color:lightblue;
+}
+h3{
+background-color:lightblue;
+}
+#image{
+background-color:pink;
+}
+
+#emailModal{
+background:url('secure.jpg');
+background-color:pink;}
+#location{
+border:2px solid blue;
+font-size:20px;
+padding:50px;
+}

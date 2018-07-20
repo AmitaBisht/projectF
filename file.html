@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<title>Check account is Secure or not ?</title>
+
+<meta name="viewport" content="width-device-width,initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<link rel="stylesheet" type ="text/css" href="style.css" />
+</head>
+<body>
+
+ <nav class ="navbar navbar-default" >
+     <div class ="container"id="abc" >
+        <div class="navebar-header">
+		<a class="navbar-brand"  href="/" ><strong> Check your Account (HACKED OR NOT) </strong></a>
+		<div class="container "> <strong><h3> Securely </strong></h3>
+		</div>
+		</div>
+	</nav>
+<div class ="Container">
+<div class="jumbotron text-center" id="image">
+<h1>YOU MIGHT BE HACKED...!!</h1>
+<p>Don't belive me check it yourself...</p>
+<a class="btn btn-primary" data-toggle="modal" data-target=".email-checker">Check Account Security</a>
+</div>
+<div id ="message" >
+</div>
+<div class="result" id="result" color="red">
+</div>
+<div id="error"></div>
+</div>
+
+<div id ="emailModal" class="modal fade email-checker" tabindex="-1" role="dialog" aria-labellebdy="gridSystemModalLabel">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h6 class="modal-title" id="gridSystemModalLabel"> HACKED OR NOT</h6>
+</div>
+<div class="modal-body">
+<div class="row">
+</div>
+<input class="text-center" type="email" placeholder="Enter the email address" id="id_email">
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-left" data-dismiss="modal">Close</button>
+<button  id="btn_email" type="button" class="btn btn-primary" onclick="checkEmail();">Check Email</button>
+</div>
+</div>
+</div>
+</div> 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html> 
+
